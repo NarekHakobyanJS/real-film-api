@@ -1,0 +1,33 @@
+.card {
+    width: 320px;
+    border : 1px solid gold;
+    margin-top: 20px;
+    border-radius: 16px;
+    overflow: hidden;
+    
+}
+
+.card .card-img {
+    width: 100%;
+    cursor: pointer;
+    transition: .3s all linear;
+}
+.card-img-block{
+    width: 320px;
+    height: 480px;
+    overflow: hidden;
+    
+}
+.card:hover .card-img{
+    transform: scale(1.3);
+}
+.card-description{
+    padding: 25px;
+}
+
+.card-description h2{
+    margin: 0;
+    font-size: 18px;
+    color : gold;
+    text-align: center;
+}

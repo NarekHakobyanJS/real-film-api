@@ -1,0 +1,48 @@
+.form{
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.comments-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin : 0 auto;
+}
+
+.comments-form label {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 14px 0;
+}
+
+.comments-form input, textarea {
+    border : 1px solid gold;
+    border-radius: 16px;
+    padding: 7px 15px;
+    font-size: 18px;
+    color : gold;
+    background: transparent;
+    font-weight: 700;
+}
+
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 50%;
+    border-radius: 16px;
+    height: 34px;
+    background: none;
+    border : 1px solid gold;
+    color : gold;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-btn:disabled {
+    opacity : .5
+}

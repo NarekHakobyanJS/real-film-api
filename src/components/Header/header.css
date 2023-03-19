@@ -1,0 +1,27 @@
+.header {
+    width: 100%;
+    max-width: 1240px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 7px 15px;
+    border-bottom: 1px solid gold;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    background: black;
+    z-index: 17;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 65px;
+}

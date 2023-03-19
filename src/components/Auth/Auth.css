@@ -1,0 +1,26 @@
+.auth-block{
+    display: flex;
+    align-items: center;
+}
+
+.auth-block h3{
+    margin-right: 15px;
+    color : gold;
+}
+
+.auth-block button {
+    border : 2px solid gold;
+    background: transparent;
+    color : gold;
+    border-radius: 16px;
+    padding: 5px 13px;
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+    transition: .3s all linear;
+}
+
+.auth-block button:hover{
+    background: gold;
+    color : black;
+}

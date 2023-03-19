@@ -1,0 +1,15 @@
+.comment{
+    margin-top: 35px;
+    width: 350px;
+    border: 1px solid gold;
+    border-radius: 16px;
+    padding: 3px 10px;
+}
+
+.comment h3, p{
+    margin : 0;
+}
+
+.comment h3{
+    margin-bottom: 8px;
+}

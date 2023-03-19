@@ -1,0 +1,105 @@
+
+.logo-form{
+    width: 160px;
+    display: block;
+    margin : 0 auto;
+}
+.login{
+    width: 600px;
+    height: 400px;
+    background: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    margin: 0 auto;
+    top : calc(50% - 200px);
+    border-radius: 16px;
+}
+.login-form{
+    padding: 0 10px;
+    width: 600px;
+    height: 300px;
+    margin : 0 auto;
+}
+.login-form h1{
+    text-align: center;
+    color : gold;
+}
+.overlay-login{
+    z-index: 22;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    z-index: 30;
+    position: fixed;
+    top : 0;
+    left : 0;
+    right: 0;
+}
+
+.form-login{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.from-block{
+    display: flex;
+    flex-direction: column;
+}
+.passowrd-block{
+position: relative;
+}
+
+.passowrd-block svg{
+    color : gold;
+    position: absolute;
+    top : 10px;
+    right: 25px;
+    cursor: pointer;
+}
+.from-block label {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    color : gold;
+}
+.passowrd-block input {
+    width: 90%;
+    margin: 4px;
+    background: none;
+    border : 1px solid gold;
+    border-radius: 16px;
+    padding: 7px 13px;
+    color : gold;
+    font-weight: 700;
+}
+.from-block input {
+    width: 90%;
+    margin: 4px;
+    background: none;
+    border : 1px solid gold;
+    border-radius: 16px;
+    padding: 7px 13px;
+    color : gold;
+    font-weight: 700;
+}
+
+.loginBTN{
+    display: block;
+    margin: 0 auto;
+    width: 98%;
+    margin-top: 15px;
+    background: none;
+    border-radius: 16px;
+    padding: 7px 13px;
+    color : gold;
+    border: 1px solid gold;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .3s all linear;
+}
+.loginBTN:hover{
+    background: gold;
+    color : black
+}

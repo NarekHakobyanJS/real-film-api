@@ -1,0 +1,49 @@
+.pagination{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.pagination-btn-active{
+    background: gold;
+    border : 1px solid gold;
+    border-radius: 50%;
+    margin-left: 12px;
+    width: 35px;
+    height: 35px;
+    color : black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.pagination-btn{
+    border : 1px solid gold;
+    border-radius: 50%;
+    background: none;
+    color : gold;
+    margin-left: 12px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.prev {
+    border : 1px solid gold;
+    border-radius: 50%;
+    background: none;
+    color : gold;
+    margin-left: 12px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.next {
+    border : 1px solid gold;
+    border-radius: 50%;
+    background: none;
+    color : gold;
+    margin-left: 12px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}

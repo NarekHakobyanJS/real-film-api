@@ -1,0 +1,17 @@
+.genresBtns{
+    margin-left: 18px;
+    min-width: 135px;
+    padding: 10px;
+    border: 1px solid gold;
+    background: none;
+    color : gold;
+    font-size: 14px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.genresBtns:hover {
+    background: gold;
+    color : black
+}
